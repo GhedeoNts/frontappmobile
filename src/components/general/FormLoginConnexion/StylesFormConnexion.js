@@ -24,12 +24,12 @@ const styles = StyleSheet.create({
     },
 
     viewContainerInputMail: {
-        marginTop: 35,
+        marginTop: 70,
 
     },
 
     viewContainerInputPassword: {
-        marginTop: 25,
+        marginTop: 35,
 
     },
 
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
         width: 125,
         height: 15,
         marginLeft: 206,
-        marginTop: 30,
+        marginTop: 38,
         marginBottom: 31,
         marginRight: 38,
     },
@@ -106,6 +106,7 @@ const styles = StyleSheet.create({
 
     viewContainerButtonRegister: {
         marginTop: 24,
+        marginBottom: 66,
     },
 
     styleButtonRegister: {

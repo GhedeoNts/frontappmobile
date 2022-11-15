@@ -51,7 +51,7 @@ const StringAppFr = {
         submitAnOffer: 'Proposer une offre',
     },
 
-    screenRegister: {
+    screenRegisterChoiceProfil: {
         subTitle: 'Inscription',
         candidateSectionTitle: 'Candidat',
         recruiterSectionTitle: 'Recruteur',

@@ -1,6 +1,6 @@
 const ImgForApp = {
     imgLogoCAB: require('../assets/logo-cab.png'),
-    imgHeroScreenConnexion: require('../assets/images/imgCoverHeader.jpg'),
+    imgHeroScreen: require('../assets/images/imgCoverHeader.jpg'),
     imgHeroScreenMsgMdp: require('../assets/images/heros-msg-and-mdp.jpg'),
     iconNavBar: {
         imgIconCAB: require('../assets/logo-cab.png'),

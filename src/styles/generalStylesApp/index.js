@@ -12,6 +12,11 @@ const generalStylesApp = {
         ButtonRegister: '#fff',
         titleButtonConnexion: '#fff',
         titleButtonRegister: '#003147',
+    },
+
+    ColorFooterApp: {
+        FooterBackgroundColor: '#003147',
+        colorTitleFooter: '#FAF9F8',
     }
 
 }
