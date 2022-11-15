@@ -3,32 +3,31 @@ import styles from "./stylesNavBar";
 import React from "react";
 import ImgForApp from "../../../resources/utils";
 
-const NavBarApp = ({ ...props }) => {
+const NavBarApp = ({ StyleViewIcon, StyleIconImg, imgSourceIcon }) => {
 
     return (
 
         <View style={styles.viewNavBar}>
+
             <View style={styles.containerIconCAB}>
                 <Image
                     source={ImgForApp.iconNavBar.imgIconCAB}
                     style={styles.imgIconCAB}
                 />
             </View>
-            <View style={styles.containerIcon}>
+
+            <View style={StyleViewIcon}>
+
                 <View style={styles.viewlogocandidatheader}>
+
                     <Image
-                        source={ImgForApp.iconNavBar.imgIconCandidat}
-                        style={styles.imgIconCandidat}
-                    />
-                </View>
-                <View style={styles.viewlogorecruteurheader}>
-                    <Image
-                        source={ImgForApp.iconNavBar.imgIconRecruiter}
-                        style={styles.imgIconRecruiter}
+                        source={imgSourceIcon}
+                        style={StyleIconImg}
                     />
                 </View>
 
             </View>
+
         </View>
 
     );

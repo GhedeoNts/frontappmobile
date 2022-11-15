@@ -1,21 +1,48 @@
-import { Text, View } from "react-native";
+import { Image, ScrollView, Text, View } from "react-native";
 import React from "react";
 import styles from "./styleScreenRegisterChoiceProfil";
 import StringAppFr from "../../../resources/strings/fr-FR";
 import HerosForApp from "../../../components/general/HerosForApp";
 import ImgForApp from "../../../resources/utils";
-
+import NavBarApp from "../../../components/general/NavBarApp";
+import ChoiceProfileCreation from "../../../components/general/ChoiceProfileCreation";
+import SubTitleScreen from "../../../components/general/SubTitleScreen";
 const ScreenRegisterChoiceProfil = () => {
     return (
-        <View style={styles.containerScreenChoiceProfil}>
+        <ScrollView style={styles.body}>
+
+            <NavBarApp StyleViewIcon={styles.containerIcon} StyleIconImg={styles.imgIcon} imgSourceIcon={ImgForApp.iconNavBar.imgIconCandidat} />
+
             <HerosForApp imgSource={ImgForApp.imgHeroScreen} />
-            <View style={styles.viewSubTitleStyle}>
-                <Text style={styles.subTitleStyle}>{StringAppFr.screenRegisterChoiceProfil.subTitle}</Text>
-            </View>
-            <View>
+
+            <View style={styles.containerScreenChoiceProfil}>
+
+                <SubTitleScreen
+                    StyleSubTitle={styles.subTitleStyle}
+                    StyleViewSubTitle={styles.viewSubTitleStyle}
+                    ContentSubTitle={StringAppFr.screenRegisterChoiceProfil.subTitle}
+                />
+
+                <ChoiceProfileCreation
+                    StyleViewContainerImgChoiceProfil={styles.ContainerimgChoiceProfil}
+                    StyleImgChoiceProfil={styles.imgChoiceProfil}
+                    StyleViewConatinerTitleProfil={styles.viewContainerTitleProfil}
+                    StyleChoiceTitleProfil={styles.styleTitleProfil}
+                    ImgSourceProfilChoice={ImgForApp.imgScreenChoice.Candidate}
+                    TitleChoiceProfil={StringAppFr.screenRegisterChoiceProfil.candidateSectionTitle}
+                />
+
+                <ChoiceProfileCreation
+                    StyleViewContainerImgChoiceProfil={styles.ContainerimgChoiceProfil}
+                    StyleImgChoiceProfil={styles.imgChoiceProfil}
+                    StyleViewConatinerTitleProfil={styles.viewContainerTitleProfil}
+                    StyleChoiceTitleProfil={styles.styleTitleProfil}
+                    ImgSourceProfilChoice={ImgForApp.imgScreenChoice.Recruiter}
+                    TitleChoiceProfil={StringAppFr.screenRegisterChoiceProfil.recruiterSectionTitle}
+                />
 
             </View>
-        </View>
+        </ScrollView>
     );
 };
 

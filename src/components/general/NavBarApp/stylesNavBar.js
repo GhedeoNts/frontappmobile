@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         justifyContent: "flex-end"
     },
     viewlogocandidatheader: {
-        alignSelf: 'center',
+        // alignSelf: 'center',
         marginRight: 15,
         marginTop: 14,
         marginBottom: 15,

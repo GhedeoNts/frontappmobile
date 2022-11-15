@@ -4,6 +4,8 @@ import styles from "./StylesFormConnexion";
 import StringAppFr from "../../../resources/strings/fr-FR";
 import ButtonApp from "../ButtonApp";
 import generalStylesApp from "../../../styles/generalStylesApp";
+import LabelInputApp from "../LabelInputApp";
+import InputFormApp from "../InputFormApp";
 
 const FormLoginConnexion = ({ placeholderForm }) => {
 
@@ -16,22 +18,26 @@ const FormLoginConnexion = ({ placeholderForm }) => {
                 <Text style={styles.subTitleStyle}>{StringAppFr.screenLoginCandidateOrRegister.subTitle}</Text>
             </View>
 
-            <View style={styles.viewContainerInputMail}>
-                <Text style={styles.styleinputLabel}>{StringAppFr.screenLoginCandidateOrRegister.formLabelText.mailAddress}</Text>
-                <TextInput
-                    style={styles.styleInputMail}
-                    placeholder={placeholderForm.mailAddress}
-                />
-            </View>
+            <InputFormApp
+                StyleViewContainerInputForm={styles.viewContainerInputMail}
+                LabelInput={<LabelInputApp
+                    StyleInputLabel={styles.styleinputLabel}
+                    ContentLabel={StringAppFr.screenLoginCandidateOrRegister.formLabelText.mailAddress}
+                />}
+                StyleInputForm={styles.styleInputMail}
+                PlaceholderForm={placeholderForm.mailAddress}
+            />
 
-            <View style={styles.viewContainerInputPassword}>
-                <Text style={styles.styleinputLabel}>{StringAppFr.screenLoginCandidateOrRegister.formLabelText.passWords}</Text>
-                <TextInput
-                    style={styles.styleInputPassword}
-                    placeholder={placeholderForm.passWords}
-                />
-            </View>
 
+            <InputFormApp
+                StyleViewContainerInputForm={styles.viewContainerInputPassword}
+                LabelInput={<LabelInputApp
+                    StyleInputLabel={styles.styleinputLabel}
+                    ContentLabel={StringAppFr.screenLoginCandidateOrRegister.formLabelText.passWords}
+                />}
+                StyleInputForm={styles.styleInputPassword}
+                PlaceholderForm={placeholderForm.passWords}
+            />
 
             <View style={styles.viewContainerTitleForgetPassword}>
                 <Text style={styles.styletitleForgotPassword}>{StringAppFr.screenLoginCandidateOrRegister.titleForgotPassword}</Text>

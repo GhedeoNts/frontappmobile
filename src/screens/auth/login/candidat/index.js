@@ -10,7 +10,7 @@ import styles from "./StyleScreenLoginCandidate";
 const ScreenLoginCandidate = () => {
     return (
         <ScrollView style={styles.body}>
-            <NavBarApp />
+            <NavBarApp StyleViewIcon={styles.containerIcon} StyleIconImg={styles.imgIcon} imgSourceIcon={ImgForApp.iconNavBar.imgIconCandidat} />
             <HerosForApp imgSource={ImgForApp.imgHeroScreen} />
             <FormLoginConnexion placeholderForm={StringAppFr.screenLoginCandidateOrRegister.formLabelText.placeholderInputCandidate} />
         </ScrollView>

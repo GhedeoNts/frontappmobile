@@ -1,7 +1,6 @@
 import { Image, Text, View } from "react-native";
 import React from "react";
 import styles from "./stylesHerosLoginConnexion";
-import ImgForApp from "../../../resources/utils";
 
 const HerosForApp = ({ imgSource }) => {
     return (

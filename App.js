@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
+import LoadingPageApp from './src/screens/loadingPageApp';
 import ScreenLoginCandidate from './src/screens/auth/login/candidat';
 import ScreenLoginRecruiter from './src/screens/auth/login/recruteur';
 import ScreenRegisterChoiceProfil from './src/screens/auth/register';
@@ -10,11 +11,11 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       {/* <LoadingPageApp /> */}
-      {/* <ScreenLoginCandidate /> */}
+      <ScreenLoginCandidate />
       {/* <ScreenLoginRecruiter /> */}
-      <ScreenRegisterChoiceProfil />
+      {/* <ScreenRegisterChoiceProfil /> */}
 
-      {/* <FooterBar /> */}
+      <FooterBar />
     </View>
   );
 }

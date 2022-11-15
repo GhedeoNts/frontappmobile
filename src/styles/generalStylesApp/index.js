@@ -17,7 +17,7 @@ const generalStylesApp = {
     ColorFooterApp: {
         FooterBackgroundColor: '#003147',
         colorTitleFooter: '#FAF9F8',
-    }
+    },
 
 }
 
