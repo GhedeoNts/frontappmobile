@@ -12,10 +12,24 @@
     "expo": "~47.0.3",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-web": "~0.18.9",
+    "react-dom": "18.1.0",
+    "@expo/webpack-config": "^0.17.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
-  "private": true
+  "private": true,
+  "description": "Projet d'Application du Centre Social Eclaté",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhedeoNts/frontappmobile.git"
+  },
+  "author": "GhedeoNts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhedeoNts/frontappmobile/issues"
+  },
+  "homepage": "https://github.com/GhedeoNts/frontappmobile#readme"
 }

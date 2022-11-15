@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/resources/assets/logo-cab.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
