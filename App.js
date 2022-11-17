@@ -7,7 +7,7 @@ import ScreenRegisterChoiceProfil from './src/screens/auth/register';
 import FooterBar from './src/components/general/FooterBar';
 import ScreenCreateProfilCandidate from './src/screens/auth/register/candidat/ScreenCreateProfilCandidate';
 import generalStylesApp from './src/styles/generalStylesApp';
-// import ContainerDegree from './src/components/general/ContainerDegree';
+import ContainerDegree from './src/components/general/ContainerDegree';
 export default function App() {
   return (
     <View style={styles.container}>

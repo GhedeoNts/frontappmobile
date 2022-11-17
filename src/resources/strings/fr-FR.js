@@ -100,12 +100,13 @@ const StringAppFr = {
 
             placeholderOther: 'Précisez ........'
         },
+
         sectionMyAvailabilities: {
             subTitle: 'Mes disponibilités',
             titleSubSectionDayOfTheWeek: 'Jour de la semaine',
-            subSectionDayOfTheWeek: ['Mercredi', 'Samedi', 'Autre :'],
+            subSectionDayOfTheWeek: { Choice1: 'Mercredi', Choice2: 'Samedi', Choice3: 'Autre :' },
             titleSubSectionHolidayPeriods: 'Périodes de vacances',
-            subSectionHolidayPeriods: ['Février', 'Avril', 'Juillet', 'Octobre', 'Août', 'Noël'],
+            subSectionHolidayPeriods: { monthFebrary: 'Février', monthApril: 'Avril', monthJuly: 'Juillet', monthOctober: 'Octobre', monthAugust: 'Août', monthChristmas: 'Noël' },
             ButtonTitleFinish: 'Terminer',
         },
 

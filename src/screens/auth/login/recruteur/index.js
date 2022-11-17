@@ -11,7 +11,7 @@ const ScreenLoginRecruiter = () => {
     return (
         <ScrollView style={styles.body}>
             <NavBarApp ImgSourceIcon={ImgForApp.iconNavBar.imgIconRecruiter} />
-            <HerosForApp imgSource={ImgForApp.imgHeroScreen} />
+            <HerosForApp imgSource={ImgForApp.heros.imgHeroScreen} />
             <FormLoginConnexion placeholderForm={StringAppFr.screenLoginCandidateOrRegister.formLabelText.placeholderInputRecruiter} />
         </ScrollView>
     );

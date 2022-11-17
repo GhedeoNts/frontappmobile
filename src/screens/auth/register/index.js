@@ -13,7 +13,7 @@ const ScreenRegisterChoiceProfil = () => {
 
             <NavBarApp ImgSourceIcon={ImgForApp.iconNavBar.imgIconCandidat} />
 
-            <HerosForApp imgSource={ImgForApp.imgHeroScreen} />
+            <HerosForApp imgSource={ImgForApp.heros.imgHeroScreen} />
 
             <View style={styles.containerScreenChoiceProfil}>
 
