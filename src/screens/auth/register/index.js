@@ -11,7 +11,7 @@ const ScreenRegisterChoiceProfil = () => {
     return (
         <ScrollView style={styles.body}>
 
-            <NavBarApp StyleViewIcon={styles.containerIcon} StyleIconImg={styles.imgIcon} imgSourceIcon={ImgForApp.iconNavBar.imgIconCandidat} />
+            <NavBarApp ImgSourceIcon={ImgForApp.iconNavBar.imgIconCandidat} />
 
             <HerosForApp imgSource={ImgForApp.imgHeroScreen} />
 

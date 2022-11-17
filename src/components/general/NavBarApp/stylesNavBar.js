@@ -14,6 +14,12 @@ const styles = StyleSheet.create({
         width: 38,
         height: 38,
     },
+
+    imgIcon: {
+        width: 38,
+        height: 38,
+    },
+
     imgIconCandidat: {
         width: 38,
         height: 38,
@@ -30,12 +36,21 @@ const styles = StyleSheet.create({
         height: 38,
         marginLeft: 40,
     },
+
     containerIcon: {
         flex: 1,
         flexDirection: "row",
         alignSelf: 'center',
-        justifyContent: "flex-end"
+        justifyContent: "flex-end",
     },
+
+    viewlogoheader: {
+        alignSelf: 'center',
+        marginRight: 52,
+        marginTop: 15,
+        marginBottom: 15,
+    }
+    ,
     viewlogocandidatheader: {
         // alignSelf: 'center',
         marginRight: 15,

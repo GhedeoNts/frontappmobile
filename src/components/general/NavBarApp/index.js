@@ -3,7 +3,7 @@ import styles from "./stylesNavBar";
 import React from "react";
 import ImgForApp from "../../../resources/utils";
 
-const NavBarApp = ({ StyleViewIcon, StyleIconImg, imgSourceIcon }) => {
+const NavBarApp = ({ ImgSourceIcon }) => {
 
     return (
 
@@ -16,14 +16,15 @@ const NavBarApp = ({ StyleViewIcon, StyleIconImg, imgSourceIcon }) => {
                 />
             </View>
 
-            <View style={StyleViewIcon}>
+            <View style={styles.containerIcon}>
 
-                <View style={styles.viewlogocandidatheader}>
+                <View style={styles.viewlogoheader}>
 
                     <Image
-                        source={imgSourceIcon}
-                        style={StyleIconImg}
+                        source={ImgSourceIcon}
+                        style={styles.imgIcon}
                     />
+
                 </View>
 
             </View>

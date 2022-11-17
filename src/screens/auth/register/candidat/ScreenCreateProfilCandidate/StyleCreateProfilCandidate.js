@@ -1,24 +1,27 @@
 import { StyleSheet } from "react-native";
+import generalStylesApp from "../../../../../styles/generalStylesApp";
 
 const styles = StyleSheet.create({
 
-    viewContainerChoiceProfil: {
-        marginTop: 20,
+    containerScreenCreateProfil: {
+        flex: 1,
+        flexDirection: 'column',
+        backgroundColor: '#fff',
     },
 
-    viewSubTitleStyle: {
-        alignItems: "center",
+    styleViewSubTitle: {
+        alignSelf: "center",
         justifyContent: "center",
-        marginTop: 50,
-        marginBottom: 30,
+        marginTop: 30,
     },
 
-    subTitleStyle: {
+    styleSubTitle: {
         fontSize: 20,
         fontWeight: '800',
         color: generalStylesApp.ColorFromApp.PRIMARY_COLOR,
         textAlign: 'center',
     },
+
 
 });
 

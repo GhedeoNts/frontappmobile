@@ -1,10 +1,13 @@
 const ImgForApp = {
 
     imgLogoCAB: require('../assets/logo-cab.png'),
+    heros: {
+        imgHeroScreen: require('../assets/images/imgCoverHeader.jpg'),
+        imgHeroScreenMsgMdp: require('../assets/images/heros-msg-and-mdp.jpg'),
+        imgHeroScreenCreateProfilCandidate: require('../assets/images/candidat/heros-register-candidat.jpg'),
+        imgHeroScreenCreateProfilRecruiter: require('../assets/images/recruteur/heros-register-recruteur.jpg'),
+    },
 
-    imgHeroScreen: require('../assets/images/imgCoverHeader.jpg'),
-
-    imgHeroScreenMsgMdp: require('../assets/images/heros-msg-and-mdp.jpg'),
 
     iconNavBar: {
         imgIconCAB: require('../assets/logo-cab.png'),
@@ -18,7 +21,8 @@ const ImgForApp = {
     imgScreenChoice: {
         Candidate: require('../assets/images/candidat/img-candidat.png'),
         Recruiter: require('../assets/images/recruteur/img-Recruiter.png')
-    }
+    },
+
 
 }
 

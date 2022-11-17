@@ -1,7 +1,7 @@
 import { Text, View } from "react-native";
 import React from "react";
 
-const SubTitleScreen = ({ StyleSubTitle, StyleViewSubTitle, ContentSubTitle }) => {
+const SubTitleScreen = ({ StyleViewSubTitle, StyleSubTitle, ContentSubTitle }) => {
     return (
         <View style={StyleViewSubTitle}>
             <Text style={StyleSubTitle}>{ContentSubTitle}</Text>

@@ -67,7 +67,12 @@ const StringAppFr = {
     screenCreateYourProfileCandidate: {
         subTitle: 'Créer votre profil',
         formLabelText: {
-            jobSought: ['Animateur(trice)', 'Directeur(trice)'],
+
+            jobSought: {
+                placeholder: 'Poste recherché',
+                Animateur: 'Animateur(trice)',
+                Directeur: 'Directeur(trice)'
+            },
             name: 'Nom*',
             firstName: 'Prénom*',
             birthday: 'Date de naissance*',
@@ -78,8 +83,21 @@ const StringAppFr = {
             attachAPhoto: 'Joindre une photo',
         },
         diplomaSection: {
+
             subTitle: 'Mes diplômes',
-            degree: ['BAFA', 'BAFD', 'BPJEPS', 'Stage pratique', 'Non diplômé', 'Autre :'],
+            degree: {
+                Bafa: 'BAFA',
+                Bafd: 'BAFD',
+                Bpjeps: 'BPJEPS',
+                statusDegree: {
+                    encours: 'En cours',
+                    obtenu: 'Obtenu',
+                },
+                StagePratique: 'Stage pratique',
+                NoDegree: 'Non diplômé',
+                Other: 'Autre :',
+            },
+
             placeholderOther: 'Précisez ........'
         },
         sectionMyAvailabilities: {
