@@ -59,9 +59,10 @@ const StringAppFr = {
 
     screenRegisterCandidat: {
         subTitle: 'Inscription',
-        mailAddress: 'Adresse mail',
-        passWords: 'Mot de passe',
-        PasswordConfirmation: 'Confirmation mot de passe',
+        labelInputMailAddress: 'Adresse mail',
+        labelInputPassWords: 'Mot de passe',
+        labelInputPasswordConfirmation: 'Confirmation mot de passe',
+        buttonTitleRegister: 'Inscription',
     },
 
     screenCreateYourProfileCandidate: {

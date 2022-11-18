@@ -7,7 +7,9 @@ import ScreenRegisterChoiceProfil from './src/screens/auth/register';
 import FooterBar from './src/components/general/FooterBar';
 import ScreenCreateProfilCandidate from './src/screens/auth/register/candidat/ScreenCreateProfilCandidate';
 import generalStylesApp from './src/styles/generalStylesApp';
-import ContainerDegree from './src/components/general/ContainerDegree';
+import ScreenRegisterCandidate from './src/screens/auth/register/candidat/ScreenRegisterCandidate';
+
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -16,9 +18,9 @@ export default function App() {
       {/* <ScreenLoginCandidate /> */}
       {/* <ScreenLoginRecruiter /> */}
       {/* <ScreenRegisterChoiceProfil /> */}
-      <ScreenCreateProfilCandidate />
-      {/* <ContainerDegree /> */}
-      <FooterBar />
+      {/* <ScreenCreateProfilCandidate /> */}
+      <ScreenRegisterCandidate />
+      {/* <FooterBar /> */}
     </View>
   );
 }
