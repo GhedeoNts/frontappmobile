@@ -115,10 +115,11 @@ const StringAppFr = {
 
     screenRegisterRecruiter: {
         subTitle: 'Inscription',
-        numberSiret: 'N° de siret',
-        mailAddress: 'Adresse mail',
-        passWords: 'Mot de passe',
-        PasswordConfirmation: 'Confirmation mot de passe',
+        labelInputNumberSiret: 'N° de siret',
+        labelInputMailAddress: 'Adresse mail',
+        labelInputPassWords: 'Mot de passe',
+        labelInputPasswordConfirmation: 'Confirmation mot de passe',
+        buttonTitleRegister: 'Inscription',
     },
 
     screenCreateYourProfileRecruiter: {

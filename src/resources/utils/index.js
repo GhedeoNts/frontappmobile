@@ -20,7 +20,8 @@ const ImgForApp = {
 
     imgScreenChoice: {
         Candidate: require('../assets/images/candidat/img-candidat.png'),
-        Recruiter: require('../assets/images/recruteur/img-Recruiter.png')
+        Recruiter: require('../assets/images/recruteur/img-Recruiter.png'),
+        SearchOffer: require('../assets/images/candidat/custum-profil-recruteur-n2.png'),
     },
 
 

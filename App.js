@@ -8,6 +8,11 @@ import FooterBar from './src/components/general/FooterBar';
 import ScreenCreateProfilCandidate from './src/screens/auth/register/candidat/ScreenCreateProfilCandidate';
 import generalStylesApp from './src/styles/generalStylesApp';
 import ScreenRegisterCandidate from './src/screens/auth/register/candidat/ScreenRegisterCandidate';
+import ScreenRegisterRecruiter from './src/screens/auth/register/recruteur/ScreenRegisterRecruiter';
+import FormCreateProfilRecruiter from './src/components/general/FormCreateProfilRecruiter';
+import ScreenCreateProfilRecruiter from './src/screens/auth/register/recruteur/ScreenCreateProfilRecruiter';
+import ScreenProfileCandidate from './src/screens/candidate/ScreenProfileCandidate';
+import ScreenEditProfilCandidate from './src/screens/candidate/ScreenProfileCandidate/ScreenEditProfilCandidate';
 
 
 export default function App() {
@@ -19,7 +24,11 @@ export default function App() {
       {/* <ScreenLoginRecruiter /> */}
       {/* <ScreenRegisterChoiceProfil /> */}
       {/* <ScreenCreateProfilCandidate /> */}
-      <ScreenRegisterCandidate />
+      {/* <ScreenRegisterCandidate /> */}
+      {/* <ScreenRegisterRecruiter /> */}
+      {/* <ScreenCreateProfilRecruiter /> */}
+      {/* <ScreenProfileCandidate /> */}
+      <ScreenEditProfilCandidate />
       {/* <FooterBar /> */}
     </View>
   );
