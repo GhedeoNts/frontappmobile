@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "./StylesContainerDegree";
 import Checkbox from 'expo-checkbox';
 import StringAppFr from "../../../resources/strings/fr-FR";
+import SubTitleScreen from "../SubTitleScreen";
 import { SelectList } from 'react-native-dropdown-select-list'
 import DateTimePicker from '@react-native-community/datetimepicker';
 import ButtonApp from "../ButtonApp";
@@ -46,7 +47,16 @@ const ContainerDegree = () => {
 
     return (
         <>
+
+            <View style={styles.stylesContainerSubTitle}>
+                <SubTitleScreen
+                    StyleViewSubTitle={styles.styleViewSubTitleDegreeAndSectionMyAvailabilities}
+                    StyleSubTitle={styles.styleSubTitleDegreeAndSectionMyAvailabilities}
+                    ContentSubTitle={StringAppFr.screenCreateYourProfileCandidate.diplomaSection.subTitle}
+                />
+            </View>
             <View style={styles.stylesViewContainer}>
+
 
                 <View style={styles.stylesViewContainerDegree}>
                     <View style={styles.sectionCheckBox}>

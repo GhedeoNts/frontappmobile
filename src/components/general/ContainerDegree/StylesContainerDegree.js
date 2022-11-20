@@ -104,6 +104,37 @@ const styles = StyleSheet.create({
         marginRight: 6,
     },
 
+    styleViewSubTitleDegreeAndSectionMyAvailabilities: {
+        backgroundColor: '#CED4DA',
+        flexDirection: "row",
+        marginTop: 50,
+        marginBottom: 24,
+        width: 162,
+        height: 28,
+        // alignSelf: "center",
+        alignItems: "center",
+        justifyContent: "center",
+    },
+
+    styleSubTitleDegreeAndSectionMyAvailabilities: {
+        textAlign: "center",
+        alignItems: "center",
+        justifyContent: "center",
+        width: 110,
+        height: 27,
+        color: 'rgba(0, 49, 71, 0.5)',
+        fontWeight: '600',
+        fontSize: 14,
+        fontStyle: "normal",
+        lineHeight: 21,
+    },
+
+    stylesContainerSubTitle: {
+        flexDirection: "row",
+        alignSelf: "center",
+        justifyContent: "center",
+    },
+
 
 
 

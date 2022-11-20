@@ -12,7 +12,15 @@ import ScreenRegisterRecruiter from './src/screens/auth/register/recruteur/Scree
 import FormCreateProfilRecruiter from './src/components/general/FormCreateProfilRecruiter';
 import ScreenCreateProfilRecruiter from './src/screens/auth/register/recruteur/ScreenCreateProfilRecruiter';
 import ScreenProfileCandidate from './src/screens/candidate/ScreenProfileCandidate';
-import ScreenEditProfilCandidate from './src/screens/candidate/ScreenProfileCandidate/ScreenEditProfilCandidate';
+import ScreenPaginationPart1 from './src/screens/candidate/ScreenProfileCandidate/ScreenEditProfileCandidate/ScreenPaginationPart1';
+import ScreenPaginationPart2 from './src/screens/candidate/ScreenProfileCandidate/ScreenEditProfileCandidate/ScreenPaginationPart2';
+import ScreenPaginationPart3 from './src/screens/candidate/ScreenProfileCandidate/ScreenEditProfileCandidate/ScreenPaginationPart3';
+import ScreenMessageEditProfileCandidate from './src/screens/candidate/messages/success/ScreenMessageEditProfileCandidate';
+import ScreenMessageChangepasswordscandidate from './src/screens/candidate/messages/success/ScreenMessageChangepasswordscandidate';
+import ScreenMessageCreateProfileCandidate from './src/screens/candidate/messages/success/ScreenMessageCreateProfileCandidate';
+import ScreenMessageSendMailChangingMdpCandidate from './src/screens/candidate/messages/success/ScreenMessageSendMailChangingMdpCandidate';
+import ScreenMessageLogoutAccountProfileCandidate from './src/screens/candidate/messages/success/ScreenMessageLogoutAccountProfileCandidate';
+import ScreenAboutCandidate from './src/screens/candidate/ScreenAboutCandidate';
 
 
 export default function App() {
@@ -28,8 +36,16 @@ export default function App() {
       {/* <ScreenRegisterRecruiter /> */}
       {/* <ScreenCreateProfilRecruiter /> */}
       {/* <ScreenProfileCandidate /> */}
-      <ScreenEditProfilCandidate />
-      {/* <FooterBar /> */}
+      {/* <ScreenPaginationPart1 /> */}
+      {/* <ScreenPaginationPart2 /> */}
+      {/* <ScreenPaginationPart3 /> */}
+      {/* <ScreenMessageEditProfileCandidate /> */}
+      {/* <ScreenMessageChangepasswordscandidate /> */}
+      {/* <ScreenMessageCreateProfileCandidate /> */}
+      {/* <ScreenMessageSendMailChangingMdpCandidate /> */}
+      {/* <ScreenMessageLogoutAccountProfileCandidate /> */}
+      <ScreenAboutCandidate />
+      <FooterBar />
     </View>
   );
 }

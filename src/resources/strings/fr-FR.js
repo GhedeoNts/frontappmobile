@@ -4,6 +4,8 @@
  * Et s'épargner d'une longue recherche entre dossier pour la modifica-
  * tion d'un text en particulier écris en dur dans le code
  *********************************************************************/
+const date = new Date();
+
 const StringAppFr = {
 
     /********************** SECTION SCREEN CANDIDAT ******************
@@ -157,15 +159,23 @@ const StringAppFr = {
             subSectionHolidayPeriods: ['Février', 'Avril', 'Juillet', 'Octobre', 'Août', 'Noël'],
         },
         paging: {
-            ButtonTitle: ['Prev', 'Next', 'Valider'],
-            numberpaging: ['1', '2', '3']
+            ButtonTitle: {
+                buttonPrev: 'Prev',
+                buttonNext: 'Next',
+                buttonValider: 'Valider',
+            },
+            numberpaging: {
+                one: '1',
+                two: '2',
+                tree: '3'
+            }
         },
     },
 
     screenCandidateProfileEditSuccessfully: {
         headerTitle: 'Votre profil a été modifié avec succès.',
         bodyTitle: 'Votre candidature est valable jusqu’au :',
-        screenValidityDate: 'JJ/MM/AAAA',
+        screenValidityDate: `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`,
         footerTitle: 'Vous recevrez un mail une semaine avant la fin de la date de validité de votre profil.'
     },
 
@@ -196,7 +206,8 @@ const StringAppFr = {
     screenRecruiterProfileValidation: {
         headerTitle: 'Votre profil a été créé avec succès.',
         bodyTitle: 'Votre candidature est valable jusqu’au :',
-        footerTitle: 'Vous recevrez un mail une semaine avant la fin de la date de validité de votre profil.'
+        footerTitle: 'Vous recevrez un mail une semaine avant la fin de la date de validité de votre profil.',
+        screenValidityDate: `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`,
     },
 
     screenProfileEditRecruiter: {
@@ -226,8 +237,8 @@ const StringAppFr = {
     screenRecruiterProfileEditSuccessfully: {
         headerTitle: 'Votre profil a été modifié avec succès.',
         bodyTitle: 'Votre candidature est valable jusqu’au :',
-        screenValidityDate: 'JJ/MM/AAAA',
-        footerTitle: 'Vous recevrez un mail une semaine avant la fin de la date de validité de votre profil.'
+        footerTitle: 'Vous recevrez un mail une semaine avant la fin de la date de validité de votre profil.',
+        screenValidityDate: `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`,
     },
 
     screenCandidateSearch: {
@@ -303,6 +314,15 @@ const StringAppFr = {
         }
 
     },
+
+    screenMessageEditPasswordCandidate: {
+        headerTitle: 'Votre mot de passe a été modifié avec succès.',
+        bodyTitle: 'Votre candidature est valable jusqu’au :',
+        screenValidityDate: `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`,
+        footerTitle: 'Vous recevrez un mail une semaine avant la fin de la date de validité de votre profil.'
+    },
+
+
     screenEditPasswordRecruiter: {
         subTitle: 'Modifier votre mot de passe',
         Paragraph: 'Entrez votre nouveau mot de passe.',
@@ -314,7 +334,7 @@ const StringAppFr = {
 
     },
 
-    screenAboutCandidat: {
+    screenAboutCandidate: {
         subTitle: 'A propos',
         about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },

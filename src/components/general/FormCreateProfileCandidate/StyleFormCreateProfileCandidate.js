@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
     },
 
 
-    styleViewSubTtitleSubSectionDayOfTheWeek: {
+    styleViewSubTitleSubSectionDayOfTheWeek: {
         backgroundColor: '#fff',
         flexDirection: "row",
         marginTop: 12,
@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
         borderColor: '#ABB5BE',
     },
 
-    styleSubTtitleSubSectionDayOfTheWeek: {
+    styleSubTitleSubSectionDayOfTheWeek: {
         textAlign: "center",
         alignItems: "center",
         justifyContent: "center",

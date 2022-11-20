@@ -18,5 +18,9 @@
         "titleBar.inactiveBackground": "#255f9f99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#255f9f"
+    "peacock.color": "#255f9f",
+    "cSpell.words": [
+        "Changepasswordscandidate",
+        "Screenpagination"
+    ]
 }

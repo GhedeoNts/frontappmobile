@@ -1,6 +1,6 @@
 import { Image, ScrollView, Text, View } from "react-native";
 import React from "react";
-import styles from "./styleScreenRegisterChoiceProfil";
+import styles from "./styleScreenRegisterChoiceProfile";
 import StringAppFr from "../../../resources/strings/fr-FR";
 import HerosForApp from "../../../components/general/HerosForApp";
 import ImgForApp from "../../../resources/utils";

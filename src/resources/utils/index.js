@@ -6,6 +6,7 @@ const ImgForApp = {
         imgHeroScreenMsgMdp: require('../assets/images/heros-msg-and-mdp.jpg'),
         imgHeroScreenCreateProfilCandidate: require('../assets/images/candidat/heros-register-candidat.jpg'),
         imgHeroScreenCreateProfilRecruiter: require('../assets/images/recruteur/heros-register-recruteur.jpg'),
+        ImgHeroScreenChangePasswordCandidate: require('../assets/images/heros-msg-and-mdp.jpg'),
     },
 
 
